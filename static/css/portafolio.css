@@ -291,7 +291,7 @@ li, a, button {
     }
 
     .business-name {
-        font-size: 1.5em; 
+        font-size: 0.8em; 
     }
 
     .nav-toggle {
@@ -372,11 +372,11 @@ li, a, button {
     } 
     /* 2. SECCIÓN PRINCIPAL */
     .main-title {
-        font-size: 4em; 
+        font-size: 2.2em; 
     }
 
     .subtitle {
-        font-size: 1.5em; 
+        font-size: 1.2em; 
     }
 
     /* 3. SECCIÓN DE SERVICIOS */
@@ -419,27 +419,5 @@ li, a, button {
     .contact-item,
     .social-item{
         justify-content: center;
-    }
-    /* Portafolio Grid */
-    .portafolio-main-title {
-        font-size: 2.5em; 
-    }
-    .portafolio-grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
-        gap: 10px; 
-    }
-    .grid-item {
-        padding-bottom: 75%; 
-    }
-    
-    /* Lightbox */
-    .lightbox-content {
-        width: 98%; 
-        max-height: 90%;
-    }
-    .lightbox-close {
-        top: 5px;
-        right: 15px;
-        font-size: 2.5em;
     }
 }
