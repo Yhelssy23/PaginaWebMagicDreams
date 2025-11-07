@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Más Información</title>
-    <link rel="stylesheet" href="/static/css/about_me.css">
+    <title>Agencia de Marketing y Fotografia</title>
+    <link rel="stylesheet" href="/static/css/index.css">
     <link rel="icon" type="image/png" href="/static/img/logo.png">
 </head>
 <body>
@@ -15,29 +15,17 @@
                 <li><a href="/index.html">Inicio</a></li>
                 <li><a href="/templates/about_me.html">Más Información</a></li>
                 <li><a href="/templates/servicios.html">Servicios</a></li>
-                <li><a href="/templates/portafolio.html">Portafolio</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
             </ul>
         </nav>
         <a class="contact" href="#footer"><button class="btn-contact">Contacto</button></a>
     </header>
-    <section class="about-me-section">
-        <div class="about-me-container">
-            <h1 class="title">Sobre Nosotros</h1>
-            <h2 class="about-me-title">¿Qué nos hace únicos?</h2>
-
-            <div class="about-me-content">
-                <div class="about-me-text">
-                
-                    <p>En Magic & Dreams creemos en el poder de los sueños y en el<br>
-                    potencial de cada emprendimiento. Ayudamos a las marcas a brillar en<br>
-                    rede sociales con fotografía profesional, marketing y estrategias<br>
-                    efectivas. Si tienes un emprendimiento, te guiamos para destacar,<br>
-                    atraer más clientes y aumentar tus ventas con ideas frescas,<br>
-                    modernas y llenas de estilo propio.</p>
-                
-                    <a href="servicios.html" class="services-btn">Mis Servicios</a>
-                </div>
-            </div>
+    <section class="main-section">
+        <div class="main-content">
+            <h1 class="main-title">MAGIC & DREAMS</h1>
+            <h2 class="subtitle">MARKETING & FOTOGRAFÍA</h2>
+            <p class="description">Creemos en el poder de los sueños y en el potencial de cada emprendimiento.</p>
+            <a href="/templates/about_me.html" class="about-me-btn">Conócenos</a>
         </div>
     </section>
     <section class="services-section">
@@ -73,17 +61,51 @@
             </div>     
         </div>
     </section>
-    <section class="about-me-section">
-        <div class="about-me-container">
-            <h1 class="title">Objetivos</h1>
-            <div class="about-me-content">
-                <div class="about-me-text">
-                
-                    <p>✔️ Desarrollar campañas publicitarioas creativas que aumenten el alcance y traigan clientes potenciales.</p>
-                    <p>✔️ Optimizar el manejo de redes sosciales, generando contenido relevante y con propósito.</p>
-                    <p>✔️ Aumentar la visibilidad y reputación digital de los emprendimientos.</p>
+    <section class="portafolio-section">
+        <h3 class="portafolio-title">Nuestros trabajos</h3>
+        <div class="carousel-wrapper">
+            <button class="carousel-btn-prev">&#10094;</button>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="portafolio-item">
+                        <img src="/static/img/IMG-1.jpg" alt="Trabajo 1">
+                        <div class="item-overlay">
+                            <!--<p class="item-category">Trabajo 1</p>-->
+                        </div>
+                    </div>
+                    <div class="portafolio-item">
+                        <img src="/static/img/IMG-2.jpg" alt="Trabajo 2">
+                        <div class="item-overlay">
+                            <!--<p class="item-category">Trabajo 2</p>-->
+                        </div>
+                    </div>
+                    <div class="portafolio-item">
+                        <img src="/static/img/IMG-3.jpg" alt="Trabajo 3">
+                        <div class="item-overlay">
+                            <!--<p class="item-category">Trabajo 3</p>-->
+                        </div>
+                    </div>
+                    <div class="portafolio-item">
+                        <img src="/static/img/IMG-4.jpg" alt="Trabajo 4">
+                        <div class="item-overlay">
+                            <!--<p class="item-category">Trabajo 4</p>-->
+                        </div>
+                    </div>
+                    <div class="portafolio-item">
+                        <img src="/static/img/IMG-5.jpg" alt="Trabajo 5">
+                        <div class="item-overlay">
+                            <!--<p class="item-category">Trabajo 5</p>-->
+                        </div>
+                    </div>
+                    <div class="portafolio-item">
+                        <img src="/static/img/IMG-6.jpg" alt="Trabajo 6">
+                        <div class="item-overlay">
+                            <!--<p class="item-category">Trabajo 6</p>-->
+                        </div>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-btn-next">&#10095;</button>
         </div>
     </section>
     <footer class="main-footer" id="footer">
@@ -91,7 +113,7 @@
             <div class="footer-section footer-contact">
                 <h4>Contacto</h4>
                 <div class="contact-item"><img src="/static/img/icons/gmail-icon.svg" alt="Gmail">
-                    <p>magicdreams@gmail.com</p></div>
+                <p>magicdreams@gmail.com</p></div>
                 <p>📞 +591 60772748</p>
                 <p>📍 Cochabamba, Bolivia</p>
             </div>
@@ -123,6 +145,7 @@
         <div class="footer-bottom">
             <p>&copy; 2025 Magic & Dreams.</p>
         </div>
-    </footer>   
+    </footer>
+    <script src="/static/js/index.js"></script>
 </body>
 </html>
