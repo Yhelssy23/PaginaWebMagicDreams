@@ -531,6 +531,8 @@ li, a, button {
     /* 2. SECCIÓN PRINCIPAL */
     .main-title {
         font-size: 2.2em; 
+        white-space: normal;
+        display: block;
     }
 
     .subtitle {
